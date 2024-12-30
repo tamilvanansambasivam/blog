@@ -23,6 +23,7 @@ Write a program to find the largest number in an array.
 
 ```
 // Solution
+
 const numbers = [5, 12, 8, 20, 1];
 let max = numbers[0];
 for (let i = 1; i < numbers.length; i++) {
