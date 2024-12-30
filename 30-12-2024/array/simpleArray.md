@@ -21,3 +21,16 @@ console.log("First element:", numbers[0]);
 console.log("Last element:", numbers[numbers.length - 1]);
 
 ```
+
+### Problem 2: Iterate Through an Array
+
+Write a program to print each element in an array.
+
+```
+// Solution
+const fruits = ["Apple", "Banana", "Cherry", "Date"];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(`Element ${i}:`, fruits[i]);
+}
+```
