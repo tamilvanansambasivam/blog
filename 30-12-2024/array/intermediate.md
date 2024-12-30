@@ -34,3 +34,27 @@ for (let i = 1; i < numbers.length; i++) {
 console.log("Largest number:", max);
 
 ```
+
+## Slightly Challenging Problems
+
+Now, practice more problem-solving with arrays.
+
+### Problem 5: Reverse an Array
+
+Write a function to reverse an array without using built-in methods.
+
+```
+// Solution
+
+function reverseArray(arr) {
+  const reversed = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    reversed.push(arr[i]);
+  }
+  return reversed;
+}
+
+const numbers = [1, 2, 3, 4, 5];
+console.log("Original Array:", numbers);
+console.log("Reversed Array:", reverseArray(numbers));
+```
