@@ -90,6 +90,13 @@ Input: `[1, 2, 3]` → Output: `[3, 2, 1]`
 **code**
 
 ```
+arr = [1, 2, 3]
+reversed_arr = []
+
+for i in range(len(arr) - 1, -1, -1):
+    reversed_arr.append(arr[i])
+
+print(reversed_arr)
 
 ```
 
