@@ -139,6 +139,13 @@ Input: `[1, 2, 3]` → Output: `[1, 4, 9]`
 **code**
 
 ```
+arr = [1, 2, 3]
+squares = []
+
+for num in arr:
+    squares.append(num * num)
+
+print(squares)
 
 ```
 
