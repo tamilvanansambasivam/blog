@@ -113,6 +113,16 @@ Input: `[0, 2, 0, 4]` → Output: `[-1, 2, -1, 4]`
 **code**
 
 ```
+arr = [0, 2, 0, 4]
+new_arr = []
+
+for num in arr:
+    if num == 0:
+        new_arr.append(-1)
+    else:
+        new_arr.append(num)
+
+print(new_arr)
 
 ```
 
