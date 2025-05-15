@@ -16,7 +16,16 @@ Input: `[1, 2, 3, 4]` → Output: `10`
 
 **code**
 
+solution:
+
 ```
+arrayValue = [1, 2, 3, 4]
+
+sum = 0
+for i in arrayValue:
+    sum += i
+
+print(sum)
 
 ```
 
@@ -162,6 +171,7 @@ Input: `[1, 2, 3, 4]` → Output: `[4, 1, 2, 3]`
 
 ```
 
-```
+``
 
 ---
+```
