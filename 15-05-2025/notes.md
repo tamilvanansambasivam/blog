@@ -163,6 +163,16 @@ Input: `[1, 2, 2, 3, 2]`, target = `2` → Output: `3`
 
 ```
 
+arr = [1, 2, 2, 3, 2]
+target = 2
+count = 0
+
+for num in arr:
+    if num == target:
+        count += 1
+
+print(count)
+
 ```
 
 ---
