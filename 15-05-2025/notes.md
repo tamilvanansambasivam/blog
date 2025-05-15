@@ -233,8 +233,12 @@ Input: `[1, 2, 3, 4]` → Output: `[4, 1, 2, 3]`
 **code**
 
 ```
+arr = [1, 2, 3, 4]
+last_element = arr.pop()  # removes last element (4)
+arr.insert(0, last_element)  # insert it at the front
+print(arr)
 
-``
+```
 
 ---
-```
+
