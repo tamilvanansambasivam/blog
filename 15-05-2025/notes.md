@@ -188,6 +188,14 @@ Input: `[1, -2, 3, -4]` → Output: `[1, 3]`
 **code**
 
 ```
+arr = [1, -2, 3, -4]
+positive_numbers = []
+
+for num in arr:
+    if num >= 0:
+        positive_numbers.append(num)
+
+print(positive_numbers)
 
 ```
 
