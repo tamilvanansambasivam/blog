@@ -213,6 +213,11 @@ Input: `[3, 5, 1, 4]` → Output: `4`
 
 ```
 
+arr = [3, 5, 1, 4]
+arr_sorted = sorted(arr, reverse=True)
+second_largest = arr_sorted[1]
+print(second_largest)
+
 ```
 
 ---
