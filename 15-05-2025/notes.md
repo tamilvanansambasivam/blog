@@ -66,6 +66,14 @@ Input: `[1, 2, 4, 7, 8]` → Output: `3`
 **code**
 
 ```
+arr = [1, 2, 4, 7, 8]
+count = 0
+
+for num in arr:
+    if num % 2 == 0:
+        count += 1
+
+print(count)
 
 ```
 
